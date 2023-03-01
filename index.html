@@ -181,10 +181,10 @@ label {
 				estimatedHour = currHour;
 				checkTime();
 				if(estimatedTimeMin < 10){
-					time = estimatedHour + ":0" + estimatedTimeMin
+					time = estimatedHour + ":0" + estimatedTimeMin;
 				}
 				else{
-					time = estimatedHour + ":" + estimatedTimeMin
+					time = estimatedHour + ":" + estimatedTimeMin;
 				}
 			}
 			alert("Thank you for your order");
@@ -260,7 +260,7 @@ label {
 				estimatedTimeMin = estimatedTimeMin -60;
 				estimatedHour = currHour + 1;
 				if(estimatedHour > 12){
-					estimatedHour = estimatedHour  -12
+					estimatedHour = estimatedHour  -12;
 				}
 			}
 			
